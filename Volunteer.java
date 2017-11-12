@@ -22,4 +22,12 @@ public class Volunteer extends StaffMember
    {
       return 0.0;
    }
+   
+   //-----------------------------------------------------------------
+   //  Returns zero vacation for this volunteer.
+   //-----------------------------------------------------------------
+   public int vacation()
+   {
+      return 0;
+   }
 }
