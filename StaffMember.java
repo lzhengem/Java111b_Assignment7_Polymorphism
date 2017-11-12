@@ -39,4 +39,10 @@ abstract public class StaffMember
    //  employee.
    //-----------------------------------------------------------------
    public abstract double pay();
+   
+   //-----------------------------------------------------------------
+   //  Derived classes must define the vacation method for each type of
+   //  employee.
+   //-----------------------------------------------------------------
+   public abstract int vacation();
 }

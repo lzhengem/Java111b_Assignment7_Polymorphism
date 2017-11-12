@@ -8,7 +8,7 @@ public class Employee extends StaffMember
 {
    protected String socialSecurityNumber;
    protected double payRate;
-   
+   protected final int STANDARD_VACATION = 14;   
    //-----------------------------------------------------------------
    //  Constructor: Sets up this employee with the specified
    //  information.
@@ -40,5 +40,13 @@ public class Employee extends StaffMember
    public double pay()
    {
       return payRate;
+   }
+
+   //-----------------------------------------------------------------
+   //  Returns the standard vacation for this employee.
+   //-----------------------------------------------------------------
+   public int vacation()
+   {
+      return STANDARD_VACATION;
    }
 }
