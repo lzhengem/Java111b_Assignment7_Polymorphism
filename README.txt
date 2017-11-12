@@ -1,7 +1,7 @@
 Task 1: Due 11/12
 1) Modify the Firm program such that it expands its use of polymorphism by using an interface called Payable.  You will move pay method from StaffMember into Payable.
 
-Task 2: DUE 11/17
+Task 2: DUE 11/17 KL Done! Please look over in kedit branch and merge to master if specifications are met.
 2) Modify Firm such that all employees can be given different vacation options depending on their classification. Provide an abstract method in StaffMember called vacation that returns the number of vacation days a person has.  Give all Employees a standard number of vacation days (14) using a constant STANDARD_VACATION. 
 
 a) Then override the vacation method in the various Employee classes as follows:
