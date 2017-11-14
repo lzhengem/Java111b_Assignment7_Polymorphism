@@ -1,10 +1,12 @@
-//********************************************************************
-//  StaffMember.java       Author: Lewis/Loftus
-//
-//  Represents a generic staff member.
-//********************************************************************
+//*****************************************************************
+ //StaffMember.java
+ //@author(s) Chien Lin, Lena Zheng, Qian Dong Li
+ // Represents a generic staff member
+ //*****************************************************************
+ 
+ //Implement StaffMmember class to Payable interface
 
-abstract public class StaffMember
+ abstract public class StaffMember implements Payable
 {
    protected String name;
    protected String address;
@@ -14,7 +16,7 @@ abstract public class StaffMember
    //  Constructor: Sets up this staff member using the specified
    //  information.
    //-----------------------------------------------------------------
-   public StaffMember (String eName, String eAddress, String ePhone)
+   public StaffMember(String eName, String eAddress, String ePhone)
    {
       name = eName;
       address = eAddress;
@@ -34,9 +36,5 @@ abstract public class StaffMember
       return result;
    }
 
-   //-----------------------------------------------------------------
-   //  Derived classes must define the pay method for each type of
-   //  employee.
-   //-----------------------------------------------------------------
-   public abstract double pay();
+       
 }
