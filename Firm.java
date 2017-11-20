@@ -19,7 +19,7 @@ public class Firm
   public static void main (String[] args)
   {
 	Staff personnel = new Staff();
-  // sort the personnell according the name, descending
+  // sort the personnel according the name, descending
   personnel.sort();
 	personnel.payday();
   }
