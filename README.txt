@@ -13,7 +13,7 @@ a) Then override the vacation method in the various Employee classes as follows:
 - Volunteer (who are not Employees): 0
 b)  Call vacation method inside the loop already used by payday method so we see each StaffMembers vacation days.
 
-Task 3: DUE 11/22
+Task 3: DUE 11/22 LZ DONE!
 3) Rewrite the Sorting class so that both sorting algorithms put the values in descending order.  
 
 4)  Sort the array of StaffMembers based on name using the updated selection OR insertion sort from Sorting.java. Put the sort method in the class that has direct access to the array. Then call the sort in main before calling payday           
