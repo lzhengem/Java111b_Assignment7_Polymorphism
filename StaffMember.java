@@ -6,7 +6,7 @@
  
  //Implement StaffMmember class to Payable interface
 
- abstract public class StaffMember implements Payable
+ abstract public class StaffMember implements Payable, Comparable<StaffMember>
 {
    protected String name;
    protected String address;
@@ -34,6 +34,17 @@
       result += "Phone: " + phone;
 
       return result;
+   }
+
+   //gets the name
+   public String getName(){
+      return name;
+   }
+
+   //compares to the other member's name
+   public int compareTo(StaffMember otherMember)
+   {
+      return name.compareTo(otherMember.getName());
    }
 
        
