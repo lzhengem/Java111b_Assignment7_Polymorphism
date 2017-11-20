@@ -3,7 +3,6 @@
 //
 //  Represents the personnel staff of a particular business.
 //********************************************************************
-
 public class Staff
 {
    private StaffMember[] staffList;
@@ -57,4 +56,12 @@ public class Staff
          System.out.println ("-----------------------------------");
       }
    }
+
+   //uses Sorting class to sort staffList accordingto names
+   public void sort(){
+      Sorting newSort = new Sorting();
+      newSort.selectionSort(staffList);
+   }
+
+
 }
