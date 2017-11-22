@@ -45,6 +45,10 @@
    {
       return name.compareTo(otherMember.getName());
    }
-
-       
+   
+   //-----------------------------------------------------------------
+   //  Derived classes must define the vacation method for each type of
+   //  employee.
+   //-----------------------------------------------------------------
+   public abstract int vacation();
 }

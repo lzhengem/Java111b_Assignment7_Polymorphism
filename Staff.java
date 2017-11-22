@@ -15,7 +15,7 @@ public class Staff
       staffList = new StaffMember[6];
 
       staffList[0] = new Executive ("Sam", "123 Main Line",
-         "555-0469", "123-45-6789", 2423.07);
+         "555-0469", "123-45-6789", 2423.07, 10);
 
       staffList[1] = new Employee ("Carla", "456 Off Line",
          "555-0101", "987-65-4321", 1246.15);
@@ -41,17 +41,19 @@ public class Staff
    public void payday ()
    {
       double amount;
-
+      int daysOff;
       for (int count=0; count < staffList.length; count++)
       {
          System.out.println (staffList[count]);
 
          amount = staffList[count].pay();  // polymorphic
-
+         daysOff = staffList[count].vacation(); //polymorphic
          if (amount == 0.0)
             System.out.println ("Thanks!");
          else
             System.out.println ("Paid: " + amount);
+
+            System.out.println ("Vacation Days: " + daysOff);
 
          System.out.println ("-----------------------------------");
       }
