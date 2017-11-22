@@ -54,7 +54,6 @@ public class Staff
          else
             System.out.println ("Paid: " + amount);
 
-       if(daysOff != 0)
             System.out.println ("Vacation Days: " + daysOff);
 
          System.out.println ("-----------------------------------");
