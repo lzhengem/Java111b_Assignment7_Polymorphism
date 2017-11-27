@@ -21,6 +21,8 @@ public class Firm
 	Staff personnel = new Staff();
   // sort the personnel according the name, descending
   personnel.sort();
+
+  //pay the staff
 	personnel.payday();
   }
 }

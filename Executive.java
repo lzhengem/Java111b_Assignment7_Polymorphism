@@ -23,7 +23,7 @@ public class Executive extends Employee
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up this executive with the specified
-   //  information and an additional compesated vacation days.
+   //  information and an additional compensated vacation days.
    //-----------------------------------------------------------------
    public Executive (String eName, String eAddress, String ePhone,
                      String socSecNumber, double rate, int compVacation)

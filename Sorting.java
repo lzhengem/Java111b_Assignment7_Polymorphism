@@ -1,7 +1,7 @@
-//********************************************************************
-//  Sorting.java       Author: Lewis/Loftus
-//
-//  Demonstrates the selection sort and insertion sort algorithms.
+//*****************************************************************
+//Sorting.java
+//@author(s) Chien Lin, Lena Zheng, Qian Dong Li
+//Sorts lists according to descending order
 //********************************************************************
 
 public class Sorting
@@ -15,6 +15,7 @@ public class Sorting
       int max;
       Comparable temp;
 
+      //loop through the list, if any value is greater than the current max, then swap the values
       for (int index = 0; index < list.length-1; index++)
       {
          max = index;
@@ -35,6 +36,7 @@ public class Sorting
    //-----------------------------------------------------------------
    public static void insertionSort (Comparable[] list)
    {
+      // loop through the list
       for (int index = 1; index < list.length; index++)
       {
          Comparable key = list[index];

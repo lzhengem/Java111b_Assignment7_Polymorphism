@@ -4,7 +4,7 @@
  // Represents a generic staff member
  //*****************************************************************
  
- //Implement StaffMmember class to Payable interface and Comparable interface
+ //Implement StaffMember class to Payable interface and Comparable interface
  abstract public class StaffMember implements Payable, Comparable<StaffMember>
 {
    protected String name;
@@ -35,12 +35,16 @@
       return result;
    }
 
-   //gets the name
+   //-----------------------------------------------------------------
+   //  Returns the name
+   //-----------------------------------------------------------------
    public String getName(){
       return name;
    }
 
-   //update compareTo to compare to the other member's name
+   //-----------------------------------------------------------------
+   //  Update compareTo to compare to the other member's name
+   //-----------------------------------------------------------------
    public int compareTo(StaffMember otherMember)
    {
       return name.compareTo(otherMember.getName());
