@@ -15,7 +15,7 @@ public class Staff
       staffList = new StaffMember[6];
 
       staffList[0] = new Executive ("Sam", "123 Main Line",
-         "555-0469", "123-45-6789", 2423.07, 10);
+         "555-0469", "123-45-6789", 2423.07, 12);
 
       staffList[1] = new Employee ("Carla", "456 Off Line",
          "555-0101", "987-65-4321", 1246.15);
